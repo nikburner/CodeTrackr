@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Custom Scrollbar Styles */
+.scrollbar-thin::-webkit-scrollbar {
+    width: 6px;
+  }
+  .scrollbar-thin::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  .scrollbar-thin::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 6px;
+  }
+  .scrollbar-thin:hover::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 255, 255, 0.4);
+  }
+
+
+/* Custom color scale - vibrant green gradient */
+
+.react-calendar-heatmap .color-empty {
+  fill: rgba(107, 114, 128, 0.7) !important;
+}
+.color-scale-5 {
+  fill: rgba(52, 211, 153, 0.4);
+}
+.color-scale-4 {
+  fill: rgba(52, 211, 153, 0.7);
+}
+.color-scale-3 {
+  fill: rgba(52, 211, 153, 0.9);
+}
+.color-scale-2 {
+  fill: rgba(16, 185, 129, 1);
+}
+.color-scale-1 {
+  fill: rgba(5, 150, 105, 1);
+}
+
+/* Improve calendar UI */
+.react-calendar-heatmap .color-empty {
+  fill: #2d333b;
+}
+.react-calendar-heatmap {
+  border-radius: 4px;
+}
+.react-calendar-heatmap rect {
+  rx: 2px;
+  stroke: rgba(164, 158, 158, 0.1);
+  stroke-width: 1px;
+  transition: all 0.2s ease;
+}
+.react-calendar-heatmap rect:hover {
+  stroke: rgb(244, 242, 242);
+  stroke-width: 1.5px;
+}
+.react-calendar-heatmap text {
+  font-size: 9px;
+  fill: #9ca3af;
+}
