@@ -21,7 +21,19 @@ CodeTracker is your one-stop dashboard that aggregates competitive programming p
 - Responsive design
 - Exportable statistics
 
+### Screenshots
 
+![First Dashboard](./public/firstdash.png)
+
+![LeetCode Page](./public/leetcode.png)
+
+![Contests](./public/contests.png)
+
+![Leaderboard](./public/leaderboard.png)
+
+![Recommendations 1](./public/recomm.png)
+
+![Recommendations 2](./public/recomm2.png)
 
 ## 🛠 Tech Stack
 
