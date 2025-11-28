@@ -155,7 +155,7 @@ export default function SignUp() {
             transition={{ duration: 0.5 }}
           >
             <a href="/" className="inline-flex items-center">
-              <span className="text-3xl font-bold text-blue-600 dark:text-blue-400">CPier</span>
+              <span className="text-3xl font-bold text-blue-600 dark:text-blue-400">CodeTrackr</span>
             </a>
           </motion.div>
           <motion.h2

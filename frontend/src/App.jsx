@@ -1,6 +1,5 @@
 import './App.css'
 import { Route, Routes } from 'react-router-dom'
-import Home from './pages/Home'
 import Profile from './pages/Profile'
 import Contest from './pages/Contest'
 import LeetcodePage from './pages/LeetcodePage'
@@ -10,6 +9,7 @@ import Start from './pages/Start'
 import Login from './pages/Login'
 import SignUp from './pages/SignUp'
 import Dashboard from './pages/Dashboard'
+import LeaderboardPage from './pages/LeaderboardPage'
 
 function App() {
   return (
@@ -23,7 +23,8 @@ function App() {
       <Route path='/leetcode' element={<LeetcodePage/>}/>
       <Route path='/codechef' element={<CodechefPage/>}/>
       <Route path='/codeforces' element={<CodeforcesPage/>} />
-      <Route path='/dashboard' element={<Dashboard />} /> 
+      <Route path='/dashboard' element={<Dashboard />} />
+      <Route path='/leaderboard' element={<LeaderboardPage />} />
     </Routes>
     </>
   )

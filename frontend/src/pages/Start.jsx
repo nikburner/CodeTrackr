@@ -82,7 +82,7 @@ export default function Home() {
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center">
               <div className="flex-shrink-0">
-                <span className="text-2xl font-bold text-blue-600 dark:text-blue-400">CPier</span>
+                <span className="text-2xl font-bold text-blue-600 dark:text-blue-400">CodeTrackr</span>
               </div>
               <div className="hidden md:block">
                 <div className="ml-10 flex items-baseline space-x-4">
@@ -119,7 +119,7 @@ export default function Home() {
               className="mt-3 max-w-md mx-auto text-base text-gray-500 dark:text-gray-400 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl"
               variants={itemVariants}
             >
-              CPier unifies your competitive coding profiles, tracks your progress, and keeps you updated on all upcoming contests across platforms - all in one place.
+              CodeTrackr unifies your competitive coding profiles, tracks your progress, and keeps you updated on all upcoming contests across platforms - all in one place.
             </motion.p>
             <motion.div
               className="mt-8 sm:flex sm:justify-center"
@@ -195,7 +195,7 @@ export default function Home() {
             </div>
 
             <p className="text-sm text-gray-400">
-              © 2025 CPier. All rights reserved.
+              © 2025 CodeTrackr. All rights reserved.
             </p>
           </div>
         </div>

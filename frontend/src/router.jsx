@@ -12,7 +12,8 @@ import Contest from "./pages/Contest";
 import ProfileForm from "./pages/ProfileForm";
 import PP from "./pages/PP";
 import UpdatePassword from "./pages/UpdatePassword";
-import AuthRoute from './components/AuthRoute'
+import AuthRoute from './components/AuthRoute';
+import LeaderboardPage from "./pages/LeaderboardPage";
 
 export const router = createBrowserRouter([
     { path: "/", element: <Start /> },
@@ -92,6 +93,14 @@ export const router = createBrowserRouter([
         element: (
             <PrivateRoute>
                 <ProfileForm />
+            </PrivateRoute>
+        )
+    },
+    {
+        path: "/leaderboard",
+        element: (
+            <PrivateRoute>
+                <LeaderboardPage />
             </PrivateRoute>
         )
     },

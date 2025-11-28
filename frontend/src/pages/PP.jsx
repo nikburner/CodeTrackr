@@ -41,7 +41,7 @@ export default function PP() {
               className="text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white sm:text-5xl md:text-6xl"
               variants={itemVariants}
             >
-              <span className="block">CPier</span>
+              <span className="block">CodeTrackr</span>
               <span className="block text-blue-600 dark:text-blue-400">Privacy Policy</span>
             </motion.h1>
             <motion.p
@@ -70,7 +70,7 @@ export default function PP() {
                 <h2 className="text-2xl font-bold text-gray-900 dark:text-white">Introduction</h2>
               </div>
               <p className="text-gray-600 dark:text-gray-300">
-                CPier ("we", "our", or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our service that integrates with Google Calendar API and stores your competitive programming profiles.
+                CodeTrackr ("we", "our", or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our service that integrates with Google Calendar API and stores your competitive programming profiles.
               </p>
             </div>
 
@@ -147,7 +147,7 @@ export default function PP() {
                 <h2 className="text-2xl font-bold text-gray-900 dark:text-white">Google API Compliance</h2>
               </div>
               <p className="text-gray-600 dark:text-gray-300">
-                CPier's use and transfer to any other app of information received from Google APIs will adhere to <a href="https://developers.google.com/terms/api-services-user-data-policy" className="text-blue-500 hover:underline" target="_blank" rel="noopener noreferrer">Google API Services User Data Policy</a>, including the Limited Use requirements.
+                CodeTrackr's use and transfer to any other app of information received from Google APIs will adhere to <a href="https://developers.google.com/terms/api-services-user-data-policy" className="text-blue-500 hover:underline" target="_blank" rel="noopener noreferrer">Google API Services User Data Policy</a>, including the Limited Use requirements.
               </p>
               <div className="bg-blue-50 dark:bg-blue-900/20 p-4 rounded-lg border border-blue-100 dark:border-blue-900">
                 <h3 className="font-semibold text-blue-800 dark:text-blue-200 mb-2">Limited Use Disclosure:</h3>

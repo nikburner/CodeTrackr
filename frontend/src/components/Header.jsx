@@ -73,7 +73,7 @@ const Headers = () => {
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 9l3 3-3 3m5 0h3m-11 4h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
             </svg>
             <h1 className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-cyan-300">
-              CPier
+              CodeTrackr
             </h1>
           </motion.div>
         </Link>
@@ -175,6 +175,14 @@ const Headers = () => {
           >
             Contests
             <span className={`absolute -bottom-1 left-0 w-0 h-0.5 bg-blue-400 transition-all duration-300 group-hover:w-full ${isActive('/contest') ? 'w-full' : ''}`}></span>
+          </Link>
+
+          <Link
+            to="/leaderboard"
+            className={`relative group font-medium transition-all duration-300 ${isActive('/leaderboard') ? 'text-blue-400' : 'text-white hover:text-blue-400'}`}
+          >
+            Leaderboard
+            <span className={`absolute -bottom-1 left-0 w-0 h-0.5 bg-blue-400 transition-all duration-300 group-hover:w-full ${isActive('/leaderboard') ? 'w-full' : ''}`}></span>
           </Link>
         </nav>
 

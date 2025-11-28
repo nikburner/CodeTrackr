@@ -10,6 +10,7 @@ import { FaLinkedin, FaGithub } from "react-icons/fa";
 import { useEffect, useState } from "react";
 import 'react-circular-progressbar/dist/styles.css';
 import CombinedHeatmap from "../components/CombinedHeatmap";
+import Recommendations from "../components/Recommendations";
 
 const Dashboard = () => {
   const { profileData } = useUserProfile();
@@ -638,6 +639,11 @@ const Dashboard = () => {
                 </div>
               </motion.div>
             )}
+          </div>
+
+          {/* AI Recommendations Section */}
+          <div className="mt-8">
+            <Recommendations />
           </div>
         </div>
       </div>

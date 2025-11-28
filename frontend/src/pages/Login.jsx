@@ -100,7 +100,7 @@ export default function Login() {
         <div className="text-center">
           <motion.div initial={{ scale: 0.8, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} transition={{ duration: 0.5 }}>
             <a href="/" className="inline-flex items-center">
-              <span className="text-3xl font-bold text-blue-600 dark:text-blue-400">CPier</span>
+              <span className="text-3xl font-bold text-blue-600 dark:text-blue-400">CodeTrackr</span>
             </a>
           </motion.div>
           <motion.h2 className="mt-6 text-3xl font-extrabold text-gray-900 dark:text-white" initial={{ y: 20, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ delay: 0.2 }}>
