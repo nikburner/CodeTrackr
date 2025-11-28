@@ -1,6 +1,6 @@
-# CodeTrackr - Unified Coding Profile Dashboard 🚀
+# CodeTracker - Unified Coding Profile Dashboard 🚀
 
-CodeTrackr is your one-stop dashboard that aggregates competitive programming profiles from LeetCode, CodeChef, and CodeForces. Get a 360° view of your coding journey with unified statistics, friends leaderboard, recommendated problems by gen AI, and integrated contest calendars.
+CodeTracker is your one-stop dashboard that aggregates competitive programming profiles from LeetCode, CodeChef, and CodeForces. Get a 360° view of your coding journey with unified statistics, friends leaderboard, recommendated problems by gen AI, and integrated contest calendars.
 
 ## ✨ Features
 
